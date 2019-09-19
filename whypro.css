@@ -1,0 +1,106 @@
+body {
+   background-image: radial-gradient(circle farthest-corner at 1.3% 2.8%, rgba(239, 249, 249, 1) 0%, rgba(182, 199, 226, 1) 100.2%);
+   background-repeat: no-repeat;
+   font-family: 'Lato', sans-serif;
+}
+
+.why-pro-table {
+   border: 1px solid #ddd;
+   background: #fff;
+   padding: 20px;
+}
+
+@media (min-width:768px) {
+   [class*="col-md"]:nth-child(n+3) .why-pro-table {
+      border-top: 0;
+   }
+
+   .why-pro-table {
+      margin: -1px;
+   }
+   .no-spacing-lg {
+      margin-left: 0;
+      margin-right: 0;
+   }
+   .no-spacing-lg [class*="col-md-"]{
+      padding-left: 0;
+      padding-right: 0;
+   }
+}
+
+.wpt-header {
+   border-bottom: 1px solid #ddd;
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+}
+
+.wpt-header {
+   display: flex;
+   align-items: center;
+}
+
+.wpt-list {
+   display: flex;
+   padding: 10px 0;
+}
+
+.wpt-th,
+.why-f {
+   flex-grow: 1;
+}
+
+.wpt-lab,
+.why-fo {
+   width: 60px;
+   text-align: center;
+   margin: 0 5px;
+}
+
+.why-f {
+   font-size: 17px;
+   font-weight: normal;
+   line-height: 1;
+   margin: 0;
+   width: 80%;
+}
+
+.wpt-th {
+   font-size: 22px;
+   font-weight: 400;
+   line-height: 1.1;
+   margin: 0;
+   width: 80%;
+}
+
+.wpt-lab {
+   border-radius: 4px;
+   font-size: 14px;
+   line-height: 1;
+   padding: 5px;
+}
+
+.wpt-free-lab {
+   border: 1px solid #ddd;
+}
+
+.wpt-pro-lab {
+   color: #fff;
+   background-color: #e83e8c;
+}
+
+
+.why-fo:before {
+   font-family: "Font Awesome 5 Free";
+   font-weight: 900;
+   font-size: 22px;
+}
+
+.why-fy:before {
+   content: "\f058";
+   color: #009688;
+}
+
+.why-fn:before {
+   content: "\f057";
+   color: #9a9a9a;
+}
